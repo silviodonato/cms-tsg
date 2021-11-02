@@ -1,0 +1,7 @@
+from Run3.applyL2TauTag import update as TAU_newL2sequence
+from Run3.customise_TRK import addDeepJet as BTV_addDeepJet
+from Run3.customise_TRK_replacement_global_calo import customiseRun3BTagRegionalTracks_Replacement_global_calo as BTV_newCaloBTag
+from Run3.customizeHLTforRun3Tracking import customizeHLTforRun3Tracking as TRK_newTracking
+from Run3.customizeMuonHLTForRun3 import customizeMuonHLTForPatatrackWithIsoAndTriplets as MUO_newTracking
+
+
