@@ -14,6 +14,18 @@ The list of customization functions available can be found at https://github.com
 
 More info can be found in the google doc of the POG developments https://docs.google.com/spreadsheets/d/1nqd3qhFuM7TQgFRO_ZKNaGzCR0a21r4FLZQDC-JI-u0/edit#gid=0 
 
+### Download and test
+
+```
+cmsrel CMSSW_12_1_0_pre5
+cd CMSSW_12_1_0_pre5/src
+cmsenv
+git clone git@github.com:silviodonato/cms-tsg.git  hlt-run3
+cd hlt-run3
+edmConfigDump hlt.py > hlt_dump.py
+```
+
+
 #### Credits
 
 The customization functions have been downloaded from several repositories
