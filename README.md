@@ -26,7 +26,7 @@ edmConfigDump hlt.py > hlt_dump.py
 ```
 
 
-#### Credits
+### Credits
 
 The customization functions have been downloaded from several repositories
 
