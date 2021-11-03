@@ -28,7 +28,7 @@ edmConfigDump hlt.py > hlt_dump.py
 
 ### Credits
 
-The customization functions have been downloaded from several repositories
+The customization functions have been downloaded from several repositories (see https://github.com/silviodonato/cms-tsg/blob/customizeHLTforRun3/Run3/downloadCustomizationFunctions.sh)
 
 https://github.com/SWuchterl/RecoBTag-PerformanceMeasurements
 
