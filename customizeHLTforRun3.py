@@ -38,7 +38,9 @@ from Run3.customise_TRK_replacement_global_calo import customiseRun3BTagRegional
 ## PF b-tagging: new global PF b-tagging
 from Run3.customise_TRK_replacement_globalGlobal_calo import customiseRun3BTagRegionalTracks_Replacement_global_globalCalo as BTV_globalCalo_globalPF
 
+from Run3.customise_TRK import addDeepJet as BTV_addDeepJetSequence
+from Run3.customise_TRK_deepjet import customiseRun3BTagRegionalTracks_DeepJet as BTV_addDeepJetPath
+
 ## Add MC_PFBTagDeepJet (process, doPF=True, doPuppi=False, roiReplace=False)
 ## Add MC_PFBTagDeepJetROIForBTag (process, doPF=True, doPuppi=False, roiReplace=True)
-from Run3.customise_TRK import addDeepJet
 
