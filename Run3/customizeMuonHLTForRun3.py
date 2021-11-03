@@ -792,7 +792,7 @@ def customizerFuncForMuonHLTSeeding(
     nSeedsMaxBs = (99999, 99999), nSeedsMaxEs = (99999, 99999),
     mvaCutBs = (0.01, 0.01), mvaCutEs = (0.01, 0.01)):
 
-    import HLTrigger.Configuration.MuonHLTForRun3.mvaScale as _mvaScale
+    import mvaScale as _mvaScale
 
     # print "\nCustomizing Seed MVA Classifier:"
     # print "\tdoSort:      ", doSort
@@ -891,7 +891,7 @@ def customizeIOSeedingPatatrack(
 	nSeedsMaxBs = (99999, 99999), nSeedsMaxEs = (99999, 99999),
 	mvaCutBs = (0.01, 0.01), mvaCutEs = (0.01, 0.01)):
 
-	import HLTrigger.Configuration.MuonHLTForRun3.mvaScale as _mvaScale
+	import mvaScale as _mvaScale
 
 	# -- Seed MVA Classifiers
 	process.hltIter0IterL3MuonPixelSeedsFromPixelTracksFiltered = cms.EDProducer("MuonHLTSeedMVAClassifier",
