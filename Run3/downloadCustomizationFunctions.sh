@@ -15,7 +15,7 @@ for file in customise_TRK*py; do
 #    sed -i 's/process.schedule.remove/process.HLTSchedule.remove/g' $file
 done
 
-    sed -i 's/HLTrigger.Configuration.MuonHLTForRun3.mvaScale/mvaScale/g' customizeMuonHLTForRun3.py
+    sed -i 's/import HLTrigger.Configuration.MuonHLTForRun3.mvaScale/from . import mvaScale/g' customizeMuonHLTForRun3.py
 
 
 
