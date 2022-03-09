@@ -27,7 +27,7 @@ psets = [
   ),
   cms.PSet(
     record = cms.string('JetCorrectionsRecord'),
-    tag = cms.string('	JetCorrectorParametersCollection_Run3Winter21_V2_MC_AK4PFchsHLT'),
+    tag = cms.string('JetCorrectorParametersCollection_Run3Winter21_V2_MC_AK4PFchsHLT'),
     snapshotTime = cms.string('9999-12-31 23:59:59.000'),
     label = cms.untracked.string('AK4PFchsHLT'),
   ),
@@ -57,13 +57,13 @@ psets = [
   ),
   cms.PSet(
     record = cms.string('JetCorrectionsRecord'),
-    tag = cms.string('	JetCorrectorParametersCollection_Run3Winter21_V2_MC_AK8PFchsHLT'),
+    tag = cms.string('JetCorrectorParametersCollection_Run3Winter21_V2_MC_AK8PFchsHLT'),
     snapshotTime = cms.string('9999-12-31 23:59:59.000'),
     label = cms.untracked.string('AK8PFchsHLT'),
   ),
   cms.PSet(
     record = cms.string('JetCorrectionsRecord'),
-    tag = cms.string('	JetCorrectorParametersCollection_Run3Winter21_V2_MC_AK8PFPuppiHLT'),
+    tag = cms.string('JetCorrectorParametersCollection_Run3Winter21_V2_MC_AK8PFPuppiHLT'),
     snapshotTime = cms.string('9999-12-31 23:59:59.000'),
     label = cms.untracked.string('AK8PFPuppiHLT'),
   )
@@ -78,4 +78,3 @@ def forceNewJEC(process):
     for pset in psets:
         gt.toGet.append(pset)
     return process
-
