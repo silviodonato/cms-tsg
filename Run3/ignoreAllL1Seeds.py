@@ -13,3 +13,4 @@ def ignoreAllL1Seeds(process):
             if l1seed in pathPython:
                 pathPython = pathPython.replace("+process.%s+"%l1seed,"+cms.ignore(process.%s)+"%l1seed)
         setattr(process, pathName, eval(pathPython))
+    return process
